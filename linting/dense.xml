@@ -8,4 +8,5 @@
 	- Remove trailing white space if present;
 	- Remove single statements curly brackets (ex.: FROM if (a === b) { console.log('equal')} TO if ( a === b ) console.log('equal'))
 	- For pairs of if/else blocks that lead to single statements in both cases, replace by ternary operators;
+	- Avoid chaining the ':' in ternary operators to a nullish value if it's an ending statement, so we don't get no-unused-expressions error.
 </suggestions>
