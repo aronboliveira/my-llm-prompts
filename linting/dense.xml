@@ -1,0 +1,11 @@
+<suggestions>
+	- Do not include descriptive comments, ONLY those pointing that logic should be added or refactored
+	- Do not include new lines for readibility only
+	- If you can chain 'const' or 'let' declarations with trailing commas, do it (ex.: const a = '', b = 0);
+	- Always include trailing semicolons;
+	- Print width should be 80;
+	- Tab width should be 2;
+	- Remove trailing white space if present;
+	- Remove single statements curly brackets (ex.: FROM if (a === b) { console.log('equal')} TO if ( a === b ) console.log('equal'))
+	- For pairs of if/else blocks that lead to single statements in both cases, replace by ternary operators;
+</suggestions>

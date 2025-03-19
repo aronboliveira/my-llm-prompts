@@ -1,0 +1,4 @@
+<suggestions>
+	- If any catch does not have a console.error, include it and add a templated string to detail its name and message
+	- Include more try/catch (or .catch for Fetch APIs) blocks if you deem necessary
+</suggestions>
