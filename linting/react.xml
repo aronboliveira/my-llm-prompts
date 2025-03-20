@@ -1,0 +1,20 @@
+<suggestions>
+	<hooks>
+		- Be extremely mindful about array of dependencies for useEffects, useCallbacks and useMemo;
+		- DO NOT include variables that are reassigned or have reassignments batched (such as with React.Dispatch) 
+			in the body of the callback of the hook within the array of dependencies; 
+		- Whenever you see expensive calculations of objetives in the rendering logic, implement useMemo;
+		- If you include any function being used in an dependencies array (or implement as such), wrap into into an useCallback;
+	</hooks>
+	<components>
+		- If you see an component that is often mounted and unmounted (such as modals and accordions inner content),
+			refactor for using React.memo
+		- Always prefer writting components as exporting function declarations, and, IF isolated, then as a default export;
+		- Modals should be suggested to be refactored using createPortal, so ask the user about it;
+		- Always prefer importing the objects or functions from react instead of chaining with the React namespace;
+	</components>
+	<tags>
+		- Repetitive sequences of tags should be replace with .map iterations
+		- Suggest to the user error-boundaries whenever you seem fit;
+	</tags>
+</suggestions>

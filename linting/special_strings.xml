@@ -1,3 +1,0 @@
-<IMPORTANT>
-	- Emojis should be wrapped in a <span> with role as "img", and thus read its unicode to search a appropriate aria-label for it as an attribute
-</IMPORTANT>

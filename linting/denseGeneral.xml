@@ -1,0 +1,17 @@
+<suggestions>
+	<comments>
+		- Do not include descriptive comments, ONLY those pointing that logic should be added or refactored, with commented out suggestions
+	</comments>
+	<punctuation>
+		- Always include trailing semicolons;
+		- Do not include new lines for readibility only;
+	</punctuation>
+	<spacing>
+		- Print width should be 80;
+		- Tab width should be 2;
+		- Remove trailing white space if present;
+	</spacing>
+	<statements>
+		- For pairs of if/else blocks that lead to single statements in both cases, replace by ternary operators;
+	</statements>
+</suggestions>

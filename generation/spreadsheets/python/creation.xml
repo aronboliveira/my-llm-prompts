@@ -1,0 +1,17 @@
+<task>
+	<context>
+		- For each Worksheet for each Workbook;
+		- Consider NaN or nan as empty values;
+	</context>
+	<dependencies>
+		- Use pandas for dataframing;
+		- Use openpyxl for the spreadsheet engine;
+	</dependencies>
+	<procedures>
+		- Use openpyxl.styles Bold class to weighten the header title;
+		- All colors for rows should be opaque-colored (low opacity);
+		- The header row should be frozen and have a "cold" color (low value in R for the color spectrum);
+		- Borders horizontal Sides should be opaque to the point they're almost transparent;
+		- Borders vertical Sides should be opaque grey, EXCEPT for the header rows, which should be deep grey to black;
+	</procedures>
+</task>

@@ -1,0 +1,19 @@
+<suggestions>
+	<variables>
+		- Do not leave variables possibly typed as never (or Iterables of never) by the compiler, as commonly caused by 
+				variables initialized as undefined or empty objects, as such, instead:
+					- If there is some logic that can explicity type the variable, declare it
+					- Else flag it with a comment appended before as // ! NEVER
+	</variables>
+	<variables>
+		- Do not leave variables possibly typed as unknown (or Iterables of unknown) by the compiler, as commonly caused by 
+				variables initialized as undefined or empty objects, as such, instead:
+					- If there is some logic that can explicity type the variable, declare it
+					- Else flag it with a comment appended before as // ! UNKNOWN
+	</variables>
+	<iterables>
+		- Iterables should always have their types explicitly declared. 
+				In the case of Arrays of more than one level of depth, all the levels above the first should be declared with generics 
+					and direct alternating (e.g.: Array<Array<string[]>[]>)
+	</iterables>
+</suggestions>

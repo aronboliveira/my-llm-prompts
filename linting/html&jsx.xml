@@ -1,0 +1,11 @@
+<IMPORTANT>
+	- Emojis should be wrapped in a <span> with role as "img", and thus read its unicode to search a appropriate aria-label for it as an attribute;
+	- All tags should have an id, therefore create a list of suggestions for those that don't have and ask the user what they want to apply
+	- Always prefer using semantic tag names;
+	- For all tags that adding ARIA attributes wouldn't be redundant OR if it is essential (e.g.: buttons), do so;
+	- Avoid leaving text without enclosing by tags, even if it means to wrap it in a generic <span> (ask the user what cases he wants to apply);
+	- For JSX quotting:
+			- If the attribute or property is commonly templated (e.g.: className or id), assign it using ={`${...}`};
+			- Else prefer using single quotes as the main quotting, unless it is strictly necessary to use double quotes;
+	- HTML/JSX self-enclosing tags should always be written an such;
+</IMPORTANT>
