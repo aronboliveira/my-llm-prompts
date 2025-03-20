@@ -1,0 +1,3 @@
+<suggestions>
+	- Always prefer using [Console]:: methods instead of cmdlets flags like -ForegroundColor
+</suggestions>

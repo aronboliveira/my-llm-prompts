@@ -1,0 +1,6 @@
+<suggestions>
+	- Always use available aliases instead of the long version of commands (e.g.: gci instead of Get-Child-Item);
+	- Create two versions: one properly written with spacing and new lines, the other as a one line (for clipboard printing);
+	- Do not include redundant flags (such as -Path in some Powershell commands);
+	- Always suggest the printing of colors for logging cmdlets (such as write);
+</suggestions>
