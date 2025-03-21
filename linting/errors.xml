@@ -1,5 +1,7 @@
 <suggestions>
-	- If any catch does not have a console.error, include it and add a templated string to detail its name and message
-	- Include more try/catch (or .catch for Fetch APIs) blocks if you deem necessary
-	- ALWAYS wrap fetch, axios or related calls within a try/catch;
+	- If any catch does not have logging method call (e.g.: console.error in JS, print in Python), include it and add a templated string to detail its name and message
+	- Include more try/catch (or try/except) (or .catch for Fetch APIs in JS) blocks if you deem necessary
+	- ALWAYS wrap api calls (like fetch, axios) or related calls within a try/catch or try/except;
+	- Destructurings should NEVER happen right away. The response should always be tested for truthish first.
+	- Be defensive using opitional chaining and coalescing operators to avoid null pointer errors;
 </suggestions>
