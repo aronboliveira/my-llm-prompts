@@ -1,0 +1,4 @@
+<suggestions>
+	- Create the API View as a separate file, not in the same as of the main class
+	- Always suggest the URL pattern for the views.py
+</suggestions>
