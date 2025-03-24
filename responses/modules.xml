@@ -1,0 +1,10 @@
+<IMPORTANT>
+	You should NOT rewrite the whole modules, just follow this pattern:
+
+	Module X:
+
+	Changed this:
+	[previous code block]
+	To this:
+	[next code block]
+</IMPORTANT>
