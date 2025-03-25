@@ -1,0 +1,4 @@
+<task>
+	- From the list I will give you, extract only the values paired with the "v" keys;
+	- Aggregate the values taken from the EventStream into a valid jsonified list;
+</task>
