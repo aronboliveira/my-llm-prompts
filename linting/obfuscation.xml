@@ -11,7 +11,12 @@
     - DO NOT include any comments in the code that explain its obfuscation logic;
     - Fragment all the strings and serializables (lists, dictionaries, tuples, etc.) into chunks to be assembled
         during the runtime, when they are in fact used;
-    - Replace variables names by meaningless pseudohexcodes and pseudo-octals starting with __ (ex.: __0x10230 or __0b030)
+    - Shuffle the ordering of keys in dictionaries;
+    - If the language allows it for some features (like dynamically calling names of functions in JavaScript, with []),
+        also apply the split and assembly technique for these, possibly defining encoded lookup tables;
+    - Replace variables names by meaningless pseudohexcodes and pseudo-octals starting with __ (ex.: __0x10230 or __0b030);
+    - Convert numeric values into unnecessarily complex arithmetic expressions (ex.: 10 should be (3 x ((1 ** 0) * 3) + ((5 - 6) * -1));
+    - If the language supports it, convert strings into base64 and then recover it as the natural value during runtime;  
     - Create redundanters pointers throughout the indentations and/or blocks of the code:
         <example>
             __0x353 = 'a'
@@ -26,9 +31,12 @@
     - Create redundant nesting (e.g.: unnecessary blocks, unnecessary IIFEs, excessive indentation) to make the reading harder;
     - Initialize mutable variables with completely unrelated values without compromising its typing and then assign the real
         value when it's close to be used (e.g.: if a variable should be 'name', then initialize it as var __0x222 = 'message');
+    - If the serializable type allows it within the language (like Lists in many languages), initialize it without critical inner
+        data, and then add it during the runtime when it's about to be used;
     - Change the order of the functions declarations and/or expressions so it's harder to track their connections,
         without compromissing their scope;
     - If the language accepts it, include unused parameters in the signatures of the functions and unused switch cases;
+    - If the target language supports it, dynamically construct portions of the code (or even the entire code) at runtime;
     - Write a manual at the end for me to be able to easily understand the code (e.g.: where are the chunks, what are
     redundant pointers, etc.), but DO NOT comment this in the code itself;
   </instructions>
