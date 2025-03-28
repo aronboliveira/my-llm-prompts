@@ -1,0 +1,6 @@
+<instructions>
+	<indentation>
+		- Keep an indentation pattern that allows me to fold and unfold easily the blocks, statements, values for the keys in dictionaries and elements in an ArrayLike;
+		- Throughout our session, suggest user snippets templates if you keep finding repetitive patterns of code generations (with an already defined json for saving it);
+	</indentation>
+</instructions>
