@@ -1,3 +1,45 @@
+<!-- Comming from denseJavaScript -->
+<suggestions>
+	<variables>
+		- Do not assign variables if they are used only once. Instead, place its expression or value directly
+				in the statement where it is used;
+		- If you can chain 'const' or 'let' declarations with trailing commas, do it (ex.: const a = '', b = 0);
+		- If you find a const or function being reassigned, append before a comment as // * Constant reassignment;
+		- if you find variables initialized as "var", list in your response with suggestions
+				 whether to replace with "const" or "let";
+		- Comment out unused variables with the following rules:
+				a. If it's part of an array destructuring, keep the commas ordering;
+				b. Append a comment before as // * Unused variable;
+		- Replace pseudohexcode variable names with semantic names, listing these replacement as tables in the response;
+	</variables>
+	<statements>
+		- Remove single statements curly brackets (ex.: FROM if (a === b) { console.log('equal')} TO if ( a === b ) console.log('equal'));
+		- Avoid chaining the ':' in ternary operators to a nullish value if it's an ending statement, so we don't get no-unused-expressions error.
+		- For simple direct expression chaining, prefer using && instead of if (...);
+		- Replace any dummy statement (e.g.: !![] or !0) with true IF it is necessary to keep the logic, else just remove it and derived blocking if it exists;
+		- Replace dummy trailing comma sequences with proper syntax structure;
+		- If you find unused expressions, append a comment before as // ? Unused expression
+		- If you find "with" statements, append a comment before as // ! With is deprecated
+		- Use forEach for the Iterable prototypes that implement it ONLY if they are already chaning other methods,
+				and it would be more semantically appropriate AND the operation to be looped is not expensive,
+					else prefer using for ... of;
+		- For extremely expensive operations (e.g.: evaluating the whole DOM with queries), use the traditional for loop, as seen in C;
+	</statements>
+	<functions>
+		- Always prefer using function declarations instead of arrow functions if they're in the global scope, else use arrow functions;
+		- Returns from HTTP methods (e.g.: from Fetch or Axios APIs) should NEVER be destructured right away,
+				instead, a res variable should be created and tested for falsish value, and only then destructured;
+		- Remove round brackets for arrow functions if the parameters tuple meets the following conditions:
+				a. Only a single parameter;
+				b. If using TypeScript, no need to declare the type of the parameter or the return type;
+	</functions>
+	<assignmentsAndAttributions>
+		- If you find any loose comparison (== or !=), append a comment before as // ? Loose comparison
+		- If you find useless constructors, append a comment before as // ? Useless constructor
+	</assignmentsAndAttributions>
+</suggestions>
+
+<!-- Actual Typescript -->
 <suggestions>
 	<variables>
 		- Do not leave variables possibly typed as never (or Iterables of never) by the compiler, as commonly caused by 
@@ -16,4 +58,9 @@
 				In the case of Arrays of more than one level of depth, all the levels above the first should be declared with generics 
 					and direct alternating (e.g.: Array<Array<string[]>[]>)
 	</iterables>
+	<frameworks>
+			<components>
+				- Always prefer defining object types as interfaces;
+			</components>
+	</frameworks>
 </suggestions>

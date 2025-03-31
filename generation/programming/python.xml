@@ -1,0 +1,6 @@
+<instructions>
+	<classes>
+		- Don't convert a class into a function even if it only has one method without instance properties (essentially static); instead, convert it to a class with
+				a def index as a @staticmethod;
+	</classes>
+</instructions>
