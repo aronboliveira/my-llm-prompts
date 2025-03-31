@@ -10,8 +10,9 @@
 This repository contains a growing collection of **prompt patterns** designed for use with **LLMs (Large Language Models)**. They are organized as plain text or markup files for easy integration and reuse across projects.
 
 🧩 Supported formats:
-- `.xml` — structured prompts for parsing or logic-based systems  
-- `.txt` — raw prompts for basic use or experimentation  
+
+- `.xml` — structured prompts for parsing or logic-based systems
+- `.txt` — raw prompts for basic use or experimentation
 - `.yml` — prompt metadata or config-driven prompt templates
 
 ---
@@ -21,7 +22,7 @@ This repository contains a growing collection of **prompt patterns** designed fo
 <details>
 <summary><strong>🇧🇷 pt-BR — Sobre o Projeto</strong></summary>
 
-Este repositório contém uma coleção de **padrões de prompts** desenvolvidos para uso com **Modelos de Linguagem de Grande Escala (LLMs)**.  
+Este repositório contém uma coleção de **padrões de prompts** desenvolvidos para uso com **Modelos de Linguagem de Grande Escala (LLMs)**.
 
 🧩 Os arquivos são organizados nos formatos `.xml`, `.txt` ou `.yml` para facilitar o uso, reaproveitamento e integração em sistemas diversos.
 
@@ -35,7 +36,7 @@ Este repositório contém uma coleção de **padrões de prompts** desenvolvidos
 <details>
 <summary><strong>🇺🇸 en-US — About the Project</strong></summary>
 
-This repository stores a set of **prompt patterns** designed for interaction with **Large Language Models (LLMs)**.  
+This repository stores a set of **prompt patterns** designed for interaction with **Large Language Models (LLMs)**.
 
 🧩 Patterns are written in `.xml`, `.txt`, or `.yml` formats to allow for maximum compatibility and reuse.
 
@@ -49,7 +50,7 @@ This repository stores a set of **prompt patterns** designed for interaction wit
 <details>
 <summary><strong>🇪🇸 Español — Acerca del Proyecto</strong></summary>
 
-Este repositorio contiene una colección de **patrones de prompts** creados para el uso con **Modelos de Lenguaje a Gran Escala (LLMs)**.  
+Este repositorio contiene una colección de **patrones de prompts** creados para el uso con **Modelos de Lenguaje a Gran Escala (LLMs)**.
 
 🧩 Los archivos están escritos en formato `.xml`, `.txt` o `.yml` para facilitar su integración y reutilización.
 
@@ -63,7 +64,7 @@ Este repositorio contiene una colección de **patrones de prompts** creados para
 <details>
 <summary><strong>🇫🇷 Français — À propos du projet</strong></summary>
 
-Ce dépôt contient une série de **modèles de prompts** destinés à interagir avec des **grands modèles de langage (LLMs)**.  
+Ce dépôt contient une série de **modèles de prompts** destinés à interagir avec des **grands modèles de langage (LLMs)**.
 
 🧩 Les formats utilisés sont `.xml`, `.txt` ou `.yml` pour une compatibilité et une réutilisation optimale.
 
@@ -77,7 +78,7 @@ Ce dépôt contient une série de **modèles de prompts** destinés à interagir
 <details>
 <summary><strong>🇷🇺 Русский — О проекте</strong></summary>
 
-В этом репозитории содержатся **шаблоны запросов**, созданные для взаимодействия с **большими языковыми моделями (LLMs)**.  
+В этом репозитории содержатся **шаблоны запросов**, созданные для взаимодействия с **большими языковыми моделями (LLMs)**.
 
 🧩 Форматы файлов: `.xml`, `.txt`, `.yml` — для удобной интеграции и повторного использования.
 
@@ -91,7 +92,7 @@ Ce dépôt contient une série de **modèles de prompts** destinés à interagir
 <details>
 <summary><strong>🇨🇳 中文 — 项目简介</strong></summary>
 
-本项目收录了一系列与**大型语言模型（LLM）**交互的**提示词模式（Prompt Patterns）**。  
+本项目收录了一系列与**大型语言模型（LLM）**交互的**提示词模式（Prompt Patterns）**。
 
 🧩 使用格式包括：`.xml`、`.txt`、`.yml`，便于集成与复用。
 
@@ -105,7 +106,7 @@ Ce dépôt contient une série de **modèles de prompts** destinés à interagir
 <details>
 <summary><strong>🇯🇵 日本語 — プロジェクト概要</strong></summary>
 
-このリポジトリには、**大規模言語モデル（LLM）**とやり取りするための**プロンプトパターン**が収録されています。  
+このリポジトリには、**大規模言語モデル（LLM）**とやり取りするための**プロンプトパターン**が収録されています。
 
 🧩 使用フォーマットは `.xml`、`.txt`、`.yml` で、統合や再利用がしやすくなっています。
 
@@ -117,4 +118,3 @@ Ce dépôt contient une série de **modèles de prompts** destinés à interagir
 ---
 
 ## 📁 Structure
-
