@@ -9,6 +9,8 @@
   </scriptingLanguage>
   <instructions>
     - DO NOT include any comments in the code that explain its obfuscation logic;
+    - Remove any existing comments;
+    - Pay attention to the fact def and class assignment need a newline
     - Fragment all the strings and serializables (lists, dictionaries, tuples, etc.) into chunks to be assembled
         during the runtime, when they are in fact used;
     - Shuffle the ordering of keys in dictionaries;

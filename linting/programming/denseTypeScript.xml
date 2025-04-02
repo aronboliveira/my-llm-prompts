@@ -41,6 +41,9 @@
 
 <!-- Actual Typescript -->
 <suggestions>
+	<declarations>
+		- Write the interface or type declarations in a separate (block of code)/module;
+	</declarations>
 	<variables>
 		- Do not leave variables possibly typed as never (or Iterables of never) by the compiler, as commonly caused by 
 				variables initialized as undefined or empty objects, as such, instead:
