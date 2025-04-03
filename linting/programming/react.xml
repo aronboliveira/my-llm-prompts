@@ -17,4 +17,12 @@
 		- Repetitive sequences of tags should be replace with .map iterations
 		- Suggest to the user error-boundaries whenever you seem fit;
 	</tags>
+	<functions>
+		- For components that envolve toggling (ex.: modals, accordions, dialogs, etc.) and are rendered as JSX, wrap them in React.memo;
+		- If React Query is being used, remember that invalidateQueries needs an dictionary (with props such as queryKey) as an argument;
+	</functions>
+	<nextJs>
+		- Use resources from the App Router always;
+		- For modules that implement page core features (like HTMLHeadElement), remember to separate layout.tsx from page.tsx;
+	</nextJs>
 </suggestions>

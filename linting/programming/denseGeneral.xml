@@ -14,4 +14,7 @@
 	<statements>
 		- For pairs of if/else blocks that lead to single statements in both cases, replace by ternary operators;
 	</statements>
+	<imports>
+		- Imports and exports should be sorted alphabetically in all depths
+	</imports>
 </suggestions>
