@@ -1,0 +1,26 @@
+<transpiling>
+	<laravelToDjango>
+		<controllers>
+			- Transpile the whole controller from Laravel to Django
+			- Then enlist the endpoints in python
+
+			Available endpoints for the module:
+
+			######
+
+			Match the methods fit for the available endpoints, and then create new ones for those methods who demand one
+		</controllers>
+	</laravelToDjango>
+	<laravelToNextJs>
+		<instructions>
+			- Transpile this Laravel module into NextJS using the App Router version;
+			- The API call functions should be written in a separate block (one for each HTTP method type);
+			- Any API call should be wrapped into its own standalone function, and be nested into a try/catch, with the necessary imports already written;
+		</instructions>
+		<blade>
+			- Be extra careful about transpiling any clientside API calls into axios calls, and SSR calls using my backend in #####
+			- Use the following UI library/libraries for styling: ####
+			- Use the following library for toasts: ####
+		</blade>
+	</laravelToNextJs>
+</transpiling>

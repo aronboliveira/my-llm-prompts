@@ -4,4 +4,6 @@
 	- ALWAYS wrap api calls (like fetch, axios) or related calls within a try/catch or try/except;
 	- Destructurings should NEVER happen right away. The response should always be tested for truthish first.
 	- Be defensive using opitional chaining and coalescing operators to avoid null pointer errors;
+	- The messages logged for the user in toasts or modals should ONLY be the error messages and, if absolutely demanding, the status, never more details than that;
+	- The message in the console should not describe the function, but the Method that failed + what was the task to be done via this call (ex.: Failed to PUT for employees: ...(error data));
 </suggestions>

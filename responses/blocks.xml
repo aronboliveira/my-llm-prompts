@@ -1,3 +1,5 @@
 <IMPORTANT>
-	- For each enumerated item, respond with a separated code block (it should be wrapped in a <pre> within the GUI we are chatting, NOT in the code you're outputting itself);
+	- Write a block for each adjustment or new function
+	- If the adjustment is just a single line, write a single block for it with ONLY the line of change
+	- Check if all POST/PUT/PATCH/DELETE/CONNECT/OPTIONS/TRACE calls are using Toast or Modal displays for all positive and failed cases
 </IMPORTANT>
