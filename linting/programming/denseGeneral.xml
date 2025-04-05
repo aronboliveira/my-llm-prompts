@@ -1,6 +1,11 @@
 <suggestions>
 	<comments>
-		- Do not include descriptive comments, ONLY those pointing that logic should be added or refactored, with commented out suggestions
+		- Do not include descriptive comments, ONLY those pointing that logic should be added or refactored, with commented out suggestions;
+		- For comments, use the "Better comments" syntax, starting the commment with:
+				1. todo for tasks;
+				2. ! for alerts;
+				3. * for general highlights;
+				4. ? for missing/questionable segments; 
 	</comments>
 	<punctuation>
 		- Always include trailing semicolons;

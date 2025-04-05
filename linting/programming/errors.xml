@@ -1,4 +1,4 @@
-<suggestions>
+<errorHandling>
 	- If any catch does not have logging method call (e.g.: console.error in JS, print in Python), include it and add a templated string to detail its name and message
 	- Include more try/catch (or try/except) (or .catch for Fetch APIs in JS) blocks if you deem necessary
 	- ALWAYS wrap api calls (like fetch, axios) or related calls within a try/catch or try/except;
@@ -6,4 +6,5 @@
 	- Be defensive using opitional chaining and coalescing operators to avoid null pointer errors;
 	- The messages logged for the user in toasts or modals should ONLY be the error messages and, if absolutely demanding, the status, never more details than that;
 	- The message in the console should not describe the function, but the Method that failed + what was the task to be done via this call (ex.: Failed to PUT for employees: ...(error data));
-</suggestions>
+	- DO NOT throw errors in the catch block unless explicitly
+</errorHandling>
