@@ -1,0 +1,6 @@
+<writing>
+	- Explore the used UI libraries components, classes and attributes;
+	- Use html semantic tags (like <b>, <em>, <mark>, etc);
+	- Include attributes for accessibility, such as role and aria-*;
+	- Write ids for important components, and use camelCase instead of kebab-case for it;
+</writing>
