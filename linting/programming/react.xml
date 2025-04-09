@@ -24,5 +24,7 @@
 	<nextJs>
 		- Use resources from the App Router always;
 		- For modules that implement page core features (like HTMLHeadElement), remember to separate layout.tsx from page.tsx;
+		- Considering I'm working with SSR under the App router, render as much as possible serverside (without compromising styling or functionality),
+				and isolate the clientside components;
 	</nextJs>
 </suggestions>
