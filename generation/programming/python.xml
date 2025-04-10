@@ -3,4 +3,11 @@
 		- Don't convert a class into a function even if it only has one method without instance properties (essentially static); instead, convert it to a class with
 				a def index as a @staticmethod;
 	</classes>
+	<strict>
+		- Always include type hinting;
+		- Include useful and detailed server logging;
+		- Include proper error handling, treating the different kinds of possible exceptions;
+		- If the method is critical (like financial procedures), implement rollback and ACID strategies, with logging associated;
+		- If the method has severe complexity, consider implementing design patterns like Strategy or Observer;
+	</strict>
 </instructions>
