@@ -1,0 +1,137 @@
+<!-- Preencher todas as instruções começando com - e terminando com ; -->
+<frame>
+	<constants>
+		### INSERIR [APELIDO]: [VALOR], ex: cor-primaria: #ffff ####
+	</constants>
+	<aspectRatio>
+		- ### DETALHES SOBRE PROPORÇÕES ###
+	</aspectRatio>
+	<clipping>
+		- ### DETALHES SOBRE RECORTES ###
+	</clipping>
+	<layering>
+		- ### DETALHES SOBRE CAMADAS ###
+	</layering>
+	<masks>
+		- ### DETALHES SOBRE MÁSCARAS ###
+	</masks>
+	<spacing>
+		<paddings>
+			- ### ESPAÇAMENTOS ###
+		</paddings>
+		<margins>
+			- ### MARGENS ####
+		</margins>
+	</spacing>
+	<backgroundColors>
+			<gradient>
+				<mainColor>
+					### COR ###
+				</mainColor>
+				<secondaryColor>
+					### COR ###
+				</secondaryColor>
+				<tertiaryColor>
+					### COR ###
+				</tertiaryColor>
+			</gradient>
+	</backgroundColors>
+	<transitions>
+		<main>
+			### DETALHES PRINCIPAIS ###
+		</main>
+		<notes>
+			### NOTAS ####
+		</notes>
+	</transitions>
+	<animations>
+		<summary>
+			### DETALHES PRINCIPAIS ###
+		</summary>
+		<delay>
+			- ### DETALHES SOBRE DELAYS EM COMPOSIÇÃO ###
+		</delay>
+		<easing>
+			- ### DETALHES SOBRE SUAVIZAÇÃO DE ELEMENTOS ###
+		</easing>
+		<directions>
+			- ### DETALHES SOBRE ANIMAÇÕES ###
+		</directions>
+		<iterations>
+			- ### DETALHES SOBRE REPETIÇÃO, (INFINITO SE FOR LOOP) ###
+		</iterations>
+		<timeline>
+			- ### DETALHES SOBRE SEQUENCIAMENTO ###
+		</timeline>
+		<notes>
+			### NOTAS ####
+		</notes>	
+	</animations>
+	<alignments>
+		<general>
+			- ### INSERIR DETALHES GERAIS SOBRE ALINHAMENTO ####
+		</general>
+		<characters>
+			- ### INSERIR DETALHES SOBRE ALINHAMENTO DE PERSONAGENS ###
+		</characters>
+		<background>
+			- ### INSERIR DETALHES SOBRE ALINHAMENTO DE FUNDO ####
+		</background>
+	</alignments>
+	<ortography>
+		<fonts>
+			<families>
+				- ### INSERIR FAMÍLIAS DE FONTES ###
+			</families>
+			<decorations>
+				- ### INSERIR DECORAÇÕES DE FONTES ###
+			</decorations>
+			<weights>
+				- ### INSERIR PESOS DE FONTES ###
+			</weights>
+			<sizes>
+				- ### INSERIR TAMANHO DE FONTES ###
+			</sizes>
+		</fonts>
+		<hyphenization>
+			- ### INSERIR DETALHES SOBRE HIFENIZAÇÃO ###
+		</hyphenization>
+		<breaks>
+			- ### DETALHES SOBRE QUEBRAS DE PALAVRAS ###
+		</breaks>
+	</ortography>
+	<backdrop>
+		- ### DETALHES SOBRE ELEMENTOS DE FUNDO ###
+	</backdrop>
+	<referenceNotes>
+		- ### INSERIR NOTAS SOBRE REFERÊNCIAS ###
+	</referenceNotes>
+	<contextNotes>
+		- ## NOTAS SOBRE CONTEXTO ##
+	</contextNotes>
+</frame>
+
+
+Imagine a font following these rules:
+	<ortography>
+		<fonts>
+			<families>
+				- ### INSERIR FAMÍLIAS DE FONTES ###
+			</families>
+			<decorations>
+				- ### INSERIR DECORAÇÕES DE FONTES ###
+			</decorations>
+			<weights>
+				- ### INSERIR PESOS DE FONTES ###
+			</weights>
+			<sizes>
+				- ### INSERIR TAMANHO DE FONTES ###
+			</sizes>
+		</fonts>
+		<hyphenization>
+			- ### INSERIR DETALHES SOBRE HIFENIZAÇÃO ###
+		</hyphenization>
+		<breaks>
+			- ### DETALHES SOBRE QUEBRAS DE PALAVRAS ###
+		</breaks>
+	</ortography>
