@@ -1,0 +1,194 @@
+<AnimationProfile>
+  <context>
+    <mood>
+           ##### INSERT HERE MOOD CONTEXT NOTES ####
+    </mood>
+    <environment>
+           ##### INSERT HERE ENVIRONMENT CONTEXT NOTES ####
+    </environment>
+  </context>
+
+  <colorPalette>
+    <brandContrast>
+           ##### INSERT HERE BRAND CONTRAST NOTES ####
+    </brandContrast>
+    <backgroundSubdued>
+           ##### INSERT HERE BACKGROUND SUBDUED NOTES ####
+    </backgroundSubdued>
+  </colorPalette>
+
+  <textures>
+    <productFocus> 
+           ##### INSERT HERE FOCUS FOR PRODUCTS ####
+    </productFocus>
+    <environmentSecondary>
+           ##### INSERT HERE SECONDARY ENVIRONMENT NOTES ####
+     </environmentSecondary>
+  </textures>
+
+  <characters>
+    <mainModel poseEmphasis="true">
+			<CharacterProfile>
+				<Metadata>
+					<Timestamp>##### INSERT TIMESTAMP HERE #####</Timestamp>
+					<Email>##### INSERT EMAIL ADDRESS HERE #####</Email>
+				</Metadata>
+
+				<Biometrics>
+					<Gender>
+						##### INSERT GENDER HERE #####
+						<genderDetails optional="true">##### DETAIL OTHER GENDERS #####</genderDetails>
+					</Gender>
+					
+					<Body>
+						<BodyType>##### INSERT GENERAL BODY SHAPE #####</BodyType>
+						<Height>##### APPROXIMATE HEIGHT (CM) #####</Height>
+						<Skin>
+							<Color>##### SKIN COLOR #####</Color>
+							<Details optional="true">##### SKIN DETAILS #####</Details>
+						</Skin>
+						
+						<BodyComposition>
+							<FatLevel>##### BODY FAT LEVEL #####</FatLevel>
+							<MuscleDensity>##### MUSCLE DENSITY #####</MuscleDensity>
+						</BodyComposition>
+						
+						<Physique optional="true">
+							##### TORSO PHYSIQUE DETAILS #####
+						</Physique>
+					</Body>
+
+					<Head>
+						<FaceShape>##### GENERIC FACE SHAPE #####</FaceShape>
+						<FacialHair optional="true">
+							##### FACIAL HAIR PRESENCE #####
+							<Beard optional="true">
+								<Length>##### BEARD LENGTH #####</Length>
+								<Thickness>##### BEARD THICKNESS #####</Thickness>
+							</Beard>
+							<Mustache optional="true">
+								<Length>##### MUSTACHE LENGTH #####</Length>
+								<Thickness>##### MUSTACHE THICKNESS #####</Thickness>
+							</Mustache>
+							<HairColor>##### FACIAL HAIR COLOR #####</HairColor>
+						</FacialHair>
+
+						<Chin optional="true">##### CHIN DETAILS #####</Chin>
+						<Lips>
+							<Type>##### LIP TYPE #####</Type>
+							<animalDetails optional="true">##### ANIMAL-LIKE FEATURES #####</animalDetails>
+							<Anatomy optional="true">##### LIP ANATOMY DETAILS #####</Anatomy>
+						</Lips>
+						
+						<Nose>
+							<Type>##### NOSE TYPE #####</Type>
+							<animalDetails optional="true">##### ANIMAL-LIKE FEATURES #####</animalDetails>
+							<Dimensions optional="true">##### NOSE DIMENSIONS #####</Dimensions>
+						</Nose>
+						
+						<Eyes>
+							<Type>##### EYE TYPE #####</Type>
+							<Size>##### EYE SIZE #####</Size>
+							<Colors>
+								<Sclera>##### SCLERA COLOR #####</Sclera>
+								<Iris>##### IRIS COLOR #####</Iris>
+							</Colors>
+							<StructuralDetails optional="true">##### PHYSICAL EYE DETAILS #####</StructuralDetails>
+						</Eyes>
+						
+						<Ears>
+							<Type>##### EAR TYPE #####</Type>
+							<Variants optional="true">##### ANIMALISTIC/OTHER FEATURES #####</Variants>
+						</Ears>
+					</Head>
+
+					<Hair>
+						<Texture>##### HAIR TEXTURE #####</Texture>
+						<Length>##### HAIR LENGTH #####</Length>
+						<Style optional="true">##### HAIRSTYLE DETAILS #####</Style>
+					</Hair>
+				</Biometrics>
+
+				<ScenePositioning>
+					<Focus>##### CHARACTER FOCUS #####</Focus>
+					<Axes>
+						<Horizontal>
+							##### HORIZONTAL POSITION #####
+							<LateralDisplacement optional="true">##### LATERAL OFFSET #####</LateralDisplacement>
+						</Horizontal>
+						<Vertical>
+							##### VERTICAL POSITION #####
+							<VerticalDisplacement optional="true">##### VERTICAL OFFSET #####</VerticalDisplacement>
+						</Vertical>
+					</Axes>
+					<TechnicalSpecs>
+						<Lens>##### LENS TYPE #####</Lens>
+						<PositionDetails optional="true">##### ADDITIONAL POSITIONING NOTES #####</PositionDetails>
+					</TechnicalSpecs>
+				</ScenePositioning>
+
+				<Expressiveness>
+					<PrimaryExpression>##### PRIMARY FACIAL EXPRESSION #####</PrimaryExpression>
+					<Posture optional="true">
+						##### POSTURE DESCRIPTION #####
+					</Posture>
+					<Behavior optional="true">##### BEHAVIORAL DETAILS #####</Behavior>
+				</Expressiveness>
+
+				<Styling>
+					<Outfit>##### OUTFIT DESCRIPTION #####</Outfit>
+					<Accessories>
+						<Jewelry optional="true">##### JEWELRY DETAILS #####</Jewelry>
+						<Piercings optional="true">##### PIERCING DETAILS #####</Piercings>
+						<Tattoos optional="true">##### TATTOO DETAILS #####</Tattoos>
+						<Other optional="true">##### OTHER ACCESSORIES #####</Other>
+					</Accessories>
+				</Styling>
+
+				<Scene>
+					<Title>##### SCENE TITLE #####</Title>
+					<Description optional="true">##### SCENE DESCRIPTION #####</Description>
+					<VisualReferences optional="true">##### REFERENCE IMAGES #####</VisualReferences>
+				</Scene>
+			</CharacterProfile>
+      <focalPoints>
+           ##### INSERT HERE FOCAL POINTS NOTES ####
+      </focalPoints>
+      <apparelShowcase>
+           ##### INSERT HERE APPAREL SHOWCASE NOTES ####
+        <IMPORTANT>
+               ##### INSERT HERE IMPORTANT SHOWCASE NOTES ####
+        </IMPORTANT>
+      </apparelShowcase>
+      <beautyDetails>
+           ##### INSERT HERE BEAUTY DETAILS NOTES ####
+      </beautyDetails>
+    </mainModel>
+    <environmentalElements>
+      <compositionTools>
+           ##### INSERT HERE COMPOSITION TOOLS NOTES ####
+      </compositionTools>
+      <reactiveElements>
+           ##### INSERT HERE REACTIVE ELEMENTS NOTES ####
+      </reactiveElements>
+    </environmentalElements>
+  </characters>
+  <animations>
+    <cameraWork>
+           ##### INSERT HERE CAMERA WORK NOTES ####
+    </cameraWork>
+
+    <coreography>
+      <poseSequences>
+           ##### INSERT HERE POSE SEQUENCES NOTES ####
+      </poseSequences>
+      <interactionLogic>
+           ##### INSERT HERE INTERACTION LOGIC NOTES ####
+      </interactionLogic>
+    </coreography>
+
+    <transitions>
+           ##### INSERT HERE TRANSITIONS NOTES ####
+    </transitions>
+  </animations>
+</AnimationProfile>
