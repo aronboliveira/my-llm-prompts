@@ -2,7 +2,15 @@
 	<classes>
 		- Don't convert a class into a function even if it only has one method without instance properties (essentially static); instead, convert it to a class with
 				a def index as a @staticmethod;
+		- All strings that call class names (as hardcoded strings) should
+						use __class__.__name__ (store it in an acronomy constant for brevity), 
+							chaining with self, cls or none depending if its a instance method, 
+								class method or static method
 	</classes>
+	<functions>
+		- All strings that call functions or method names (as harcoded strings) 
+				should use {inspect.currentframe().f_code.co_name} or the {traceback.extract_stack()}
+	</functions>
 	<strict>
 		- Always include type hinting;
 		- Include useful and detailed server logging;

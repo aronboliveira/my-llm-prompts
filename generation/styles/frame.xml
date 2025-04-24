@@ -1,4 +1,3 @@
-<!-- Preencher todas as instruções começando com - e terminando com ; -->
 <frame>
 	<constants>
 		### INSERIR [APELIDO]: [VALOR], ex: cor-primaria: #ffff ####
@@ -110,28 +109,3 @@
 		- ## NOTAS SOBRE CONTEXTO ##
 	</contextNotes>
 </frame>
-
-
-Imagine a font following these rules:
-	<ortography>
-		<fonts>
-			<families>
-				- ### INSERIR FAMÍLIAS DE FONTES ###
-			</families>
-			<decorations>
-				- ### INSERIR DECORAÇÕES DE FONTES ###
-			</decorations>
-			<weights>
-				- ### INSERIR PESOS DE FONTES ###
-			</weights>
-			<sizes>
-				- ### INSERIR TAMANHO DE FONTES ###
-			</sizes>
-		</fonts>
-		<hyphenization>
-			- ### INSERIR DETALHES SOBRE HIFENIZAÇÃO ###
-		</hyphenization>
-		<breaks>
-			- ### DETALHES SOBRE QUEBRAS DE PALAVRAS ###
-		</breaks>
-	</ortography>

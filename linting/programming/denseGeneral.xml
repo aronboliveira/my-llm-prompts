@@ -18,6 +18,7 @@
 	</spacing>
 	<statements>
 		- For pairs of if/else blocks that lead to single statements in both cases, replace by ternary operators;
+		- Never write namespaces, class, functions or method names as hardcoded strings (rather, use dynamic reading methods);
 	</statements>
 	<imports>
 		- Imports and exports should be sorted alphabetically in all depths
